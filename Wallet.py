@@ -137,10 +137,10 @@ def load_wallet(method: str, value, network="devnet", get_balance=True) -> Keypa
 # 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 ПРИМЕР ИСПОЛЬЗОВАНИЯ 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 if __name__ == "__main__":
     # 1.1 Создать кошелёк с 12 словами
-    create_wallet(save_to_file=True, filename="wallet.json", words_number=24, hidden_data=False)
+    create_wallet(save_to_file=True, filename="wallet.json", words_number=12, hidden_data=False)
 
     # 1.2 Создать кошелёк с 24 словами
-    # create_wallet(save_to_file=True, filename="wallet24.json", words_number=24)
+    # create_wallet(save_to_file=True, filename="wallet.json", words_number=24, hidden_data=False)
 
     # 2.1 Подключиться к существующему кошельку через файл
     load_wallet("file", "wallet.json", network="mainnet", get_balance=True)

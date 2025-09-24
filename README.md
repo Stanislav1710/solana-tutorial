@@ -41,7 +41,7 @@ pip install -r requirements.txt
 from wallet import create_wallet
 
 # Создаёт кошелёк с 12 словами и сохраняет в wallet.json
-create_wallet(save_to_file=True, filename="wallet.json", words_number=12)
+create_wallet(save_to_file=True, filename="wallet.json", words_number=12, hidden_data=True)
 ```
 
 ### 2. Подключиться к кошельку
@@ -75,9 +75,10 @@ load_wallet("file", "wallet.json", network="devnet")
 ```
 solana-tutorial/
 │
-├── wallet.py        # Основной код проекта
+├── Wallet.py        # Основной код проекта
 ├── requirements.txt # Зависимости
 ├── README.md        # Эта документация
+├── Connect.py        # Тест подключения к сети Solana
 └── .gitignore       # Файлы, исключённые из git
 ```
 
