@@ -26,7 +26,7 @@ def get_connection(network='devnet') -> Client:
     if network not in RPC_ENDPOINTS:
         raise ValueError(f"Неподдерживаемая сеть '{network}'. Поддерживаются: {list(RPC_ENDPOINTS.keys())}")
 
-    client = Client(RPC_ENDPOINTS[network])
+    client = Client(RPC_ENDPOINTS[network], timeout=30)
     version = client.get_version()
     print(f"Connected to Solana cluster ({network}):", version)
     return client
