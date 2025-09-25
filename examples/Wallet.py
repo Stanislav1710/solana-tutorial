@@ -123,8 +123,8 @@ def load_wallet(method: str, value, network="devnet", get_balance=True) -> Keypa
     pubkey_obj = kp.pubkey()
     print(f"Connected wallet (method type: {method}):")
     print("Public key:", pubkey_obj)
-    print("RPC:", RPC_ENDPOINTS[network.lower()], "\n")
     if get_balance:
+        print("RPC:", RPC_ENDPOINTS[network.lower()], "\n")
         balance_resp = client.get_balance(pubkey_obj)
         lamports = balance_resp.value
         sol = lamports / 1_000_000_000
@@ -137,13 +137,13 @@ def load_wallet(method: str, value, network="devnet", get_balance=True) -> Keypa
 # 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 ПРИМЕР ИСПОЛЬЗОВАНИЯ 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 if __name__ == "__main__":
     # 1.1 Создать кошелёк с 12 словами
-    create_wallet(save_to_file=True, filename="wallet.json", words_number=12, hidden_data=False)
+    # create_wallet(save_to_file=True, filename="../wallet.json", words_number=12, hidden_data=False)
 
     # 1.2 Создать кошелёк с 24 словами
     # create_wallet(save_to_file=True, filename="wallet.json", words_number=24, hidden_data=False)
 
     # 2.1 Подключиться к существующему кошельку через файл
-    load_wallet("file", "wallet.json", network="mainnet", get_balance=True)
+    load_wallet("file", "../wallet.json", network="devnet", get_balance=True)
 
     # 2.2 Подключиться через base58 приватный ключ
     # secret_key = "secret_key"
