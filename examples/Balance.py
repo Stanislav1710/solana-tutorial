@@ -1,10 +1,14 @@
+#######################################################################################################
+# данный код еще не учтен в файлах обучения и будет использован для личного ознакомления и тестирования
+#######################################################################################################
+
+
 from solders.pubkey import Pubkey
 from Wallet import load_wallet
 from Connect import get_connection
 from solana.rpc.types import TokenAccountOpts
 from bip_utils import base58
 import time
-import struct
 
 
 def get_sol_balance(pubkey: Pubkey, network="devnet") -> float:
