@@ -11,7 +11,7 @@ RPC_ENDPOINTS = {
 
 
 # ****************🔹 1. ФУНКЦИЯ ДЛЯ ПОДКЛЮЧЕНИЯ К СЕТИ SOLANA *******************
-def get_connection(network='devnet') -> Client:
+def get_connection(network='devnet', debug=True) -> Client:
     """
     Подключается к выбранной сети Solana и возвращает объект клиента.
 
@@ -28,7 +28,8 @@ def get_connection(network='devnet') -> Client:
 
     client = Client(RPC_ENDPOINTS[network], timeout=30)
     version = client.get_version()
-    print(f"Connected to Solana cluster ({network}):", version)
+    if debug:
+        print(f"Connected to Solana cluster ({network}):", version)
     return client
 # *******************************************************************************
 
