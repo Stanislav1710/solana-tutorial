@@ -1,7 +1,7 @@
 from solana.rpc.types import TokenAccountOpts
 from solders.solders import Pubkey
-from examples.Connect import get_connection
-from examples.Wallet import load_wallet
+from examples.Python.Connect import get_connection
+from examples.Python.Wallet import load_wallet
 
 
 def get_token_balance(pubkey: Pubkey, mint_address: str, network="devnet"):

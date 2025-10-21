@@ -1,9 +1,9 @@
+from Wallet import load_wallet
 from solders.transaction import Transaction
 from solders.system_program import transfer, TransferParams
 from solders.pubkey import Pubkey
 from solders.keypair import Keypair
 from solders.message import Message
-from Connect import get_connection
 
 RPC_ENDPOINTS = {
     "devnet": "https://api.devnet.solana.com",
@@ -51,8 +51,7 @@ def send_sol(sender_kp: Keypair, recipient: str, amount_sol: float, network="dev
 
 # 🔹 Пример использования
 if __name__ == "__main__":
-    from Wallet import load_wallet
-
     wallet = load_wallet("file", "../wallet.json", network="devnet")
     recipient_address = "recipient_address"
     send_sol(wallet, recipient_address, 0.01, network="devnet")
+
