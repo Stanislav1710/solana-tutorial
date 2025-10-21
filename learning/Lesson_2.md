@@ -350,7 +350,7 @@ SendTransactionResp {
 
 ```python
 resp = client.simulate_transaction(tx)
-print(simulation)
+print(resp)
 ```
 **Реальный вывод (пример):**
 ```
