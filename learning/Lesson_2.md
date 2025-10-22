@@ -404,7 +404,7 @@ SimulateTransactionResp { context: RpcResponseContext { slot: 416153409, api_ver
 ## 9. Навигация
 
 [← Урок 1 — Что такое Solana и почему она особенная](Lesson_1.md)  
-[→ Урок 3 — Ключи и безопасность](Lesson_3.md)
+[→ Урок 3 — Devnet / Testnet / Mainnet: когда и зачем использовать каждую сеть](Lesson_3.md)
 
 
 
