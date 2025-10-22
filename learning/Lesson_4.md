@@ -191,4 +191,4 @@ RPC используется для начальной загрузки данн
 ## 8. Навигация
 
 [← Урок 3 — Devnet / Testnet / Mainnet: когда и зачем использовать каждую сеть](Lesson_3.md)  
-[→ Урок 5 — solana-cli: основные команды (keygen, airdrop, balance, transfer)](Lesson_5.md)
+[→ Урок 5 — Solana CLI: основные команды (keygen, airdrop, balance, transfer)](Lesson_5.md)
