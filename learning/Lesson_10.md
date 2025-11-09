@@ -105,14 +105,14 @@ seed32 = os.urandom(32)
 Используем код из [`examples/Python/L10-Airdrop_course_wallet.py`](../examples/Python/L10-Airdrop_course_wallet.py):
 ```python
 from solana.rpc.api import Client
-from solders.pubkey import Pubkey
+from solders.keypair import Keypair
+
 
 client = Client("https://api.devnet.solana.com")
 
 with open("course_wallet.bin", "rb") as f:
     kp_bytes = f.read()
 
-from solders.keypair import Keypair
 kp = Keypair.from_bytes(kp_bytes)
 
 sig = client.request_airdrop(kp.pubkey(), 1_000_000_000)  # 1 SOL = 1e9 lamports
