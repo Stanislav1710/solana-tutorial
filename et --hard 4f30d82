@@ -1,0 +1,43 @@
+[33m5e43e6e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33m8499d29[m HEAD@{1}: reset: moving to HEAD~1
+[33m4f30d82[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{2}: commit: new files lesson12
+[33m8499d29[m HEAD@{3}: commit: change examples lesson11
+[33m5e43e6e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{4}: commit: change examples lesson10
+[33m1c40bc5[m HEAD@{5}: commit: new files lesson10
+[33maf1b159[m HEAD@{6}: commit: new files lesson9
+[33mbc221c8[m HEAD@{7}: commit: new files lesson9
+[33m7e06c68[m HEAD@{8}: commit: new files lesson8
+[33m88e420f[m HEAD@{9}: commit: Добавлен новnew files lesson8
+[33me41143d[m HEAD@{10}: commit: Добавлен новnew files lesson7
+[33mc65b9ea[m HEAD@{11}: commit: new files for lesson6
+[33m3234251[m HEAD@{12}: commit: new files for lesson5
+[33m5e3e86c[m HEAD@{13}: commit: new commit lesson4-1
+[33mae6a0b5[m HEAD@{14}: commit: new files for lesson4
+[33m0df8ea7[m HEAD@{15}: commit: new commit 2
+[33m615dab4[m HEAD@{16}: commit: new commit 1
+[33m0908f2c[m HEAD@{17}: commit: new commit
+[33m650e6df[m HEAD@{18}: commit: new files for lesson3
+[33m574083f[m HEAD@{19}: commit: new README.md
+[33m8e9c88d[m HEAD@{20}: commit: куфreadme.md new file
+[33m03c0f8a[m HEAD@{21}: commit: rename arg lesson_2.md
+[33md62ccc8[m HEAD@{22}: commit: delete lesson_2 (1).md
+[33m210b276[m HEAD@{23}: commit: Initial commit: added Lesson 1 and Lesson 2 with тÑnew structure
+[33m64bbfa2[m HEAD@{24}: commit: добавлен 5 урÐкомментарии к файÐлÐу Balance.py
+[33m9f4981e[m HEAD@{25}: commit: добавлен 5 уропечатка в уроке 5
+[33m19c5ea6[m HEAD@{26}: commit: добавлен 5 урок в оглавление
+[33mb1554ca[m HEAD@{27}: commit: lesson5-6
+[33m038f06b[m HEAD@{28}: commit: Добавлен Balance.py и измендобавлен файл Check_token.py, доюÑбавлен параметр debug Ðв Connect.pyÐ, файл Balance.py подкорректирован для дальнейшего использования.
+[33m03bbd51[m HEAD@{29}: commit: Добавлен Balance.py и изменён Connect.py для поддердобавлет таймаут д
+[33m7f46955[m HEAD@{30}: commit: ÐДобавлено Добавлен урок 4ÐÐ, подправлен файл Transaction.py для подключения из Ðкошелька с основной дериктории
+[33mb1811ed[m HEAD@{31}: commit: ÐДобавлено предисловие
+[33mb3f76ac[m HEAD@{32}: commit: Исправлена структура проектаÐ, обновлен README.md, добавлены уроки 1-3Ð, урок 4 в процессе доработки
+[33m40e6f7d[m HEAD@{33}: reset: moving to HEAD~1
+[33m9286a0e[m HEAD@{34}: commit: Исправлен коммит без лишней строки
+[33m40e6f7d[m HEAD@{35}: reset: moving to HEAD~1
+[33m6cabbeb[m HEAD@{36}: commit: Добавлен файл Transaction.py с функцией отправки SOL
+[33m40e6f7d[m HEAD@{37}: commit: Обновил README.md и добÐисправлены шраммаÑнекоторые ошибкÐи комментов в файле Wallet.py
+[33m2989aab[m HEAD@{38}: commit: Обновил README.md и добавил requirements.txt
+[33m14e224f[m HEAD@{39}: commit: ДобÐОбновил .gitignore
+[33m3fc7df4[m HEAD@{40}: commit: Применил .gitignore
+[33mdea02fd[m HEAD@{41}: Branch: renamed refs/heads/master to refs/heads/main
+[33mdea02fd[m HEAD@{43}: commit (initial): Initial commit
